@@ -15,14 +15,14 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
-@Epic("Epic annotation - Simple example with Allure by Selenide Listener")
+@Epic("Epic annotation - Simple example with Allure")
 @Feature("Feature annotation - Allure with Selenide Listener")
 @DisplayName("DisplayName - Simple example with Allure by Selenide Listener")
 public class SelenideTest {
 
     @Test
     @Story("Story annotation - Github test")
-    @DisplayName("DisplayName - Check issue name on Github")
+    @DisplayName("DisplayName annotation - Check issue name on Github")
     public void testGithub() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
