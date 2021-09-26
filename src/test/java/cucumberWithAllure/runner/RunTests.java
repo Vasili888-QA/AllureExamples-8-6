@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources"},
         tags = "@Test or @Story",
         glue = {"cucumberWithAllure/stepDefinitions"},
+        publish = true,
         plugin = {"pretty", "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"})
 public class RunTests {
 }
