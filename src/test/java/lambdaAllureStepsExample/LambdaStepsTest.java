@@ -21,7 +21,7 @@ import static org.openqa.selenium.By.partialLinkText;
 public class LambdaStepsTest extends TestBase {
 
     private final static String REPOSITORY = "eroshenkoam/allure-example";
-    private final static Integer ISSUE_NUMBER = 68;
+    private final static Integer ISSUE_NUMBER = 74;
 
     @Test
     @Story("Story annotation - Github test with Lambda")
