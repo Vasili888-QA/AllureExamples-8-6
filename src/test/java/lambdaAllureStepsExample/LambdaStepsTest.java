@@ -18,7 +18,7 @@ import static org.openqa.selenium.By.partialLinkText;
 @Epic("Epic annotation - Simple example with Allure")
 @Feature("Feature annotation - Allure with Lambda Steps")
 @DisplayName("DisplayName annotation- Allure with Lambda Steps")
-public class LambdaStepsTest {
+public class LambdaStepsTest extends TestBase {
 
     private final static String REPOSITORY = "eroshenkoam/allure-example";
     private final static Integer ISSUE_NUMBER = 68;

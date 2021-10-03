@@ -6,6 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import io.qameta.allure.selenide.AllureSelenide;
+import lambdaAllureStepsExample.TestBase;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +19,7 @@ import static org.openqa.selenium.By.partialLinkText;
 @Epic("Epic annotation - Simple example with Allure")
 @Feature("Feature annotation - Allure with Selenide Listener")
 @DisplayName("DisplayName - Simple example with Allure by Selenide Listener")
-public class SelenideTest {
+public class SelenideTest extends TestBase {
 
     @Test
     @Story("Story annotation - Github test")
